@@ -102,13 +102,13 @@ watchEffect(() => {
     mask: url("../assets/banner-bg.png") 0% 20%/contain no-repeat;
 
     @media screen and (min-width: 600px) {
-      -webkit-mask: url("../assets/banner-bg.png") left top/contain no-repeat;
-      mask: url("../assets/banner-bg.png") left top/contain no-repeat;
+      -webkit-mask: url("../assets/banner-bg.png") center top/contain no-repeat;
+      mask: url("../assets/banner-bg.png") center top/contain no-repeat;
     }
 
     @media screen and (min-width: 960px) {
-      -webkit-mask: url("../assets/banner-bg.png") 0% 50%/contain no-repeat;
-      mask: url("../assets/banner-bg.png") 0% 50%/contain no-repeat;
+      -webkit-mask: url("../assets/banner-bg.png") center center/contain no-repeat;
+      mask: url("../assets/banner-bg.png") center center/contain no-repeat;
     }
   }
 

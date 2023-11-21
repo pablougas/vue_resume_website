@@ -10,9 +10,12 @@
         <code>The following section is a WIP, thank you for bearing with me</code>
       <h1 class="text-h2 mx-3"> } </h1>
     </div>
-
-    <Work class="work-section"/>
-    <Lab class="labs-section"/>
+    <v-row justify="center">
+      <v-col cols="11" md="10">
+        <Work class="work-section"/>
+        <Lab class="labs-section"/> 
+      </v-col>
+    </v-row>
     <button
       color="info"
       class="scroll-to-top-btn"
@@ -89,7 +92,7 @@ const scrollTopFn = () => {
     padding: 20px 0; 
     margin: 60px 0 60px 0;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     code { 
       text-align: centered;
     }
